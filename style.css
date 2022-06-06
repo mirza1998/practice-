@@ -1,15 +1,38 @@
 .jim{
     background-color: aliceblue;
-    border: 10px;
     height: 50%;
     width: 50%;
-    left: 30%;
-    bottom: 50%;
-    top: 20%;
-    position: absolute;
     border-radius: 20px 0px 80px 0px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
 }
 h1,h2,p{
  padding: 15px;
  color: rgb(81, 79, 79);
 }
+  table, th, td{
+    border: 2px solid;
+    color: #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.demo-form{
+    box-shadow: 0px 3px 24px -10px;
+    padding: 48px;
+    display: flow-root;
+    border-radius: 10px;
+}
+input {
+    padding: 11px;
+    border: 2px solid;
+    color: #0a010124;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+
+
+
